@@ -1,0 +1,19 @@
+{
+  "name": "backend-entrega-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.3",
+    "socket.io": "^4.8.3"
+  }
+}
