@@ -3,6 +3,7 @@
 <form id="productForm">
   <input name="title" placeholder="Título" required>
   <input name="price" type="number" placeholder="Precio" required>
+  <input name="stock" type="number" placeholder="Stock inicial" required>
   <button type="submit">Agregar</button>
 </form>
 
@@ -10,7 +11,7 @@
 
 <ul id="productList">
   {{#each products}}
-    <li>{{this.title}} - ${{this.price}}</li>
+    <li>{{this.title}} - $${{this.price}} - ${{this.stock}}</li>
   {{/each}}
 </ul>
 

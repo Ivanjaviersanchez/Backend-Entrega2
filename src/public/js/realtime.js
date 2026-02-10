@@ -10,7 +10,8 @@ form.addEventListener('submit', e => {
 
   const data = {
     title: form.title.value,
-    price: Number(form.price.value)
+    price: Number(form.price.value),
+    stock: Number(form.stock.value)
   };
   
   console.log("Enviando nuevo producto al servidor:", data);
@@ -37,7 +38,7 @@ socket.on('updateProducts', products => {
     const li = document.createElement('li');
 
     li.innerHTML = `
-      ${product.title} - $${product.price}
+      PRODUCTO: ${product.title} - PRECIO: ${product.price} - STOCK: ${product.stock}
       <button onclick="deleteProduct(${product.id})">
         Eliminar
       </button>

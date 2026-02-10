@@ -4,5 +4,38 @@
     "status": true,
     "title": "rrr",
     "price": 444
+  },
+  {
+    "id": 2,
+    "status": true,
+    "title": "ee",
+    "price": 55
+  },
+  {
+    "id": 3,
+    "status": true,
+    "title": "tv",
+    "price": 15
+  },
+  {
+    "id": 5,
+    "status": true,
+    "title": "heladera",
+    "price": 880000,
+    "stock": 4
+  },
+  {
+    "id": 6,
+    "status": true,
+    "title": "pava",
+    "price": 66000,
+    "stock": 78
+  },
+  {
+    "id": 8,
+    "status": true,
+    "title": "producto postman",
+    "price": 999,
+    "stock": 5
   }
 ]
